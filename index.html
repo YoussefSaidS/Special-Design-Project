@@ -1,0 +1,409 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Special Desgin</title>
+    <link rel="stylesheet" href="css/font-awesome.min.css" />
+    <link rel="stylesheet" href="css/normalize.css" />
+    <link rel="stylesheet" href="css/master.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Start Settings Box -->
+    <div class="settings-box">
+      <div class="toggle-settings">
+        <i class="fa fa-gear gear"></i>
+      </div>
+      <div class="settings-container">
+        <div class="option-box">
+          <h4>Colors</h4>
+          <ul class="colors-list">
+            <li class="active" data-color="#ff9800"></li>
+            <li data-color="#e91e63"></li>
+            <li data-color="#009688"></li>
+            <li data-color="#03a9f4"></li>
+            <li data-color="#4caf50"></li>
+          </ul>
+        </div>
+        <div class="option-box">
+          <h4>Random Backgrounds</h4>
+          <div class="random-backgrounds">
+            <span class="yes active" data-background="yes">Yes</span>
+            <span class="no" data-background="no">No</span>
+          </div>
+        </div>
+        <div class="option-box">
+          <h4>Show Bullets</h4>
+          <div class="bullets-option">
+            <span class="yes active" data-display="show">Show</span>
+            <span class="no" data-display="hide">Hide</span>
+          </div>
+        </div>
+        <button class="reset-options">Reset Options</button>
+      </div>
+    </div>
+    <!-- End Settings Box -->
+    <!-- Start Nav Bullets -->
+    <div class="nav-bullets">
+      <div class="bullet" data-section=".about-us">
+        <div class="tooltip">About Us</div>
+      </div>
+      <div class="bullet" data-section=".skills">
+        <div class="tooltip">Our Skills</div>
+      </div>
+      <div class="bullet" data-section=".gallery">
+        <div class="tooltip">Our Gallery</div>
+      </div>
+      <div class="bullet" data-section=".timeline">
+        <div class="tooltip">Timeline</div>
+      </div>
+      <div class="bullet" data-section=".features">
+        <div class="tooltip">Features</div>
+      </div>
+      <div class="bullet" data-section=".testimonials">
+        <div class="tooltip">Testimonials</div>
+      </div>
+    </div>
+    <!-- End Nav Bullets -->
+    <!-- Start Landing Page -->
+    <div class="landing-page">
+      <div class="overlay"></div>
+      <div class="container">
+        <div class="header-area">
+          <div class="logo">Special Design</div>
+          <div class="links-container">
+            <ul class="links">
+              <li><a href="#" data-section=".about-us">About</a></li>
+              <li><a href="#" data-section=".skills">Skills</a></li>
+              <li><a href="#" data-section=".gallery">Gallery</a></li>
+              <li><a href="#" data-section=".timeline">Timeline</a></li>
+              <li><a href="#" data-section=".features">Features</a></li>
+              <li><a href="#" data-section=".testimonials">Testimonials</a></li>
+            </ul>
+            <button class="toggle-menu">
+              <span></span>
+              <span></span>
+              <span></span>
+            </button>
+          </div>
+        </div>
+      </div>
+      <div class="introduction-text">
+        <h1>We Are <span>Creative</span> Agency</h1>
+        <p>
+          Lorem ipsum dolor sit amet consectetur, adipisicing elit. <br />
+          Repellendus odit ninhil ullam nesciunt quidem iste
+        </p>
+      </div>
+    </div>
+    <!-- End Landing Page -->
+    <!-- Start About Us -->
+    <div class="about-us">
+      <div class="container">
+        <h2 class="about">About Us</h2>
+        <div class="content">
+          <div class="info-box">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit
+              illum obcaecati, aut corporis asperiores illo. Fuga maiores sit
+              eos, corrupti quidem magni iste, similique dolore eaque
+              consequuntur alias fugit sunt.
+            </p>
+          </div>
+          <div class="image-box">
+            <img src="imgs/about-us.jpg" alt="" />
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End About Us -->
+    <!-- Start Our Skills -->
+    <div class="skills">
+      <div class="container">
+        <h2>Our Skills</h2>
+        <div class="skill-box">
+          <div class="skill-name">HTML</div>
+          <div class="skill-progress">
+            <span data-progress="60%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">CSS</div>
+          <div class="skill-progress">
+            <span data-progress="100%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">JavaScript</div>
+          <div class="skill-progress">
+            <span data-progress="90%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">python</div>
+          <div class="skill-progress">
+            <span data-progress="80%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">PHP</div>
+          <div class="skill-progress">
+            <span data-progress="75%"></span>
+          </div>
+        </div>
+        <div class="skill-box">
+          <div class="skill-name">MySQL</div>
+          <div class="skill-progress">
+            <span data-progress="50%"></span>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Our Skills -->
+    <!-- Start Gallery -->
+    <div class="gallery">
+      <div class="container">
+        <h2>Our Gallery</h2>
+        <div class="images-box">
+          <img src="imgs/01.jpg" alt="Image One" />
+          <img src="imgs/02.jpg" alt="Image Two" />
+          <img src="imgs/03.jpg" alt="Image Three" />
+          <img src="imgs/04.jpg" alt="Image Four" />
+          <img src="imgs/05.jpg" alt="Image Five" />
+          <img src="imgs/06.png" alt="" />
+          <img src="imgs/07.jpg" alt="" />
+          <img src="imgs/08.jpg" alt="" />
+          <img src="imgs/09.jpg" alt="" />
+          <img src="imgs/10.jpg" alt="" />
+        </div>
+      </div>
+    </div>
+    <!-- End Gallery -->
+    <!-- Start Timeline -->
+    <div class="timeline">
+      <h2>Timeline</h2>
+      <div class="container">
+        <div class="timeline-content">
+          <div class="year">2020</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus similique reiciendis vitae optio atque laboriosam
+                quam quidem, mollitia, molestiae voluptatem officia expedita
+                dignissimos tempore adipisci. Veniam perferendis animi accusamus
+                numquam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus similique reiciendis vitae optio atque laboriosam
+                quam quidem, mollitia, molestiae voluptatem officia expedita
+                dignissimos tempore adipisci. Veniam perferendis animi accusamus
+                numquam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2021</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus similique reiciendis vitae optio atque laboriosam
+                quam quidem, mollitia, molestiae voluptatem officia expedita
+                dignissimos tempore adipisci. Veniam perferendis animi accusamus
+                numquam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus similique reiciendis vitae optio atque laboriosam
+                quam quidem, mollitia, molestiae voluptatem officia expedita
+                dignissimos tempore adipisci. Veniam perferendis animi accusamus
+                numquam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="year">2022</div>
+          <div class="left">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus similique reiciendis vitae optio atque laboriosam
+                quam quidem, mollitia, molestiae voluptatem officia expedita
+                dignissimos tempore adipisci. Veniam perferendis animi accusamus
+                numquam.
+              </p>
+            </div>
+          </div>
+          <div class="clearfix"></div>
+          <div class="right">
+            <div class="content">
+              <h3>Testing Heading</h3>
+              <p>
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit.
+                Repellendus similique reiciendis vitae optio atque laboriosam
+                quam quidem, mollitia, molestiae voluptatem officia expedita
+                dignissimos tempore adipisci. Veniam perferendis animi accusamus
+                numquam.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <!-- End Timeline -->
+    <!-- Start Features-->
+    <div class="features">
+      <h2>Our Features</h2>
+      <div class="container">
+        <div class="feat-box">
+          <img src="imgs/Icon_01.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anygthing you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_02.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anygthing you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_03.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anygthing you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_04.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anygthing you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_05.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anygthing you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="feat-box">
+          <img src="imgs/Icon_06.png" alt="" />
+          <h4>Development</h4>
+          <p>
+            We are professional marketeers, we will do anygthing you imagine in
+            no time.
+          </p>
+        </div>
+        <div class="clearfix"></div>
+      </div>
+    </div>
+    <!-- End Features -->
+    <!-- Start Testimonials -->
+    <div class="testimonials">
+      <h2>Testimonials</h2>
+      <div class="container">
+        <div class="ts-box">
+          <p>
+            I am very with the product it's amazing and i recieve it very fast
+            and the price was amazing
+          </p>
+          <div class="person-info">
+            <!-- <img src="https://placehold.it/80/DDD" alt="" /> -->
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <h4>Youssef Said</h4>
+            <p>Web Developer</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            I am very with the product it's amazing and i recieve it very fast
+            and the price was amazing
+          </p>
+          <div class="person-info">
+            <img
+              src="data:image/jpeg;base64,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"
+              alt=""
+            />
+            <h4>Mohamed Ibrahim</h4>
+            <p>Mobile Developer</p>
+          </div>
+        </div>
+        <div class="ts-box">
+          <p>
+            I am very with the product it's amazing and i recieve it very fast
+            and the price was amazing
+          </p>
+          <div class="person-info">
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRxgT2vx3K-brAU5Vg3X22zAvIDV6Pg_XqTlg&s"
+              alt=""
+            />
+            <h4>Ahemd Mosaad</h4>
+            <p>CEO At Company</p>
+          </div>
+        </div>
+      </div>
+      <div class="clearfix"></div>
+    </div>
+    <!-- End Testimonials -->
+    <!-- Start Contact Us -->
+    <div class="contact">
+      <div class="overlay"></div>
+      <div class="container">
+        <h2>Contact Us</h2>
+        <form action="">
+          <div class="left">
+            <input type="text" placeholder="Your Name" name="username" />
+            <input type="number" placeholder="Your Phone" name="phone" />
+            <input type="email" placeholder="Your Email" name="email" />
+            <input type="text" placeholder="Subject" name="subject" />
+          </div>
+          <div class="right">
+            <textarea name="message" placeholder="Your Message"></textarea>
+            <input type="submit" value="Send" />
+          </div>
+        </form>
+      </div>
+    </div>
+    <!-- End Contact Us -->
+     <!-- Start Footer -->
+      <div class="footer">&copy; Created With Youssef Said</div>
+     <!-- End Footer -->
+    <script src="js/master.js"></script>
+  </body>
+</html>
